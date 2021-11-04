@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(194, 30, 86);
+    --secondary-color: rgb(150, 50, 75);
+    --tertiary-color: rgb(57, 166, 200);
+    --background-color: rgb(243, 207, 198);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--secondary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+header, footer #contact-me {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+}
+
+footer h1 {
+    color: var(--background-color);
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul, footer #contact-me ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a, footer #contact-me ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+main {
+    display: flex;
+}
+
+main h2 {
+    color: var(--tertiary-color);
+}
+
+#about-me {
+    flex-basis: 3rem;
+    padding: 25px;
+    justify-content: center;
+}
+#about-me h1 {
+    text-align: right;
+}
+#about-me img {
+    padding: 20px 0;
+    border-radius: 30%;
+    max-width: 355px;
+}
+#about-me p {
+    text-align: right;
+    font-style: italic;
+}
+
+#my-work {
+    flex-bottom: 50rem;
+    padding: 25px;
+}
+
+#my-work .card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#my-work h2 {
+    flex: 0 0 100%;
+    padding: 10px 0;
+}
+
+#my-work div {
+    flex: 1;
+}
+
+#amazon-glow img, #personal-shopper img {
+    width: 33%;
+    padding: 10px 0;
+}
+
+footer img {
+    width: 33px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #contact-me {
+    flex: 0 0 100%;
+}
+
+footer .icons-attribution {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .icons-attribution ul {
+    align-self: flex-end;
+}
+
+footer .icons-attribution ul li {
+    font-size: x-small;
+    text-decoration: none;
+    color: var(--background-color);
+}
