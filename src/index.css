@@ -11,16 +11,24 @@
   --antiflash-white: #efefefff;
   --antiflash-white2: #f0f2f3ff;
   --misty-rose: #fadcd9ff;
+  --rosy-brown: #c8a0a0ff;
+  --taupe-gray: #93939bff;
+  --rose-shadow: #E49789FF;
 }
 
-body {
+html,
+body,
+#root,
+.app {
+  height: 100%;
   background-color: var(--antiflash-white);
   color: var(--eerie-black);
+  @apply: var(--eerie-black);
 }
 
 .logo {
   color: var(--melon);
-  text-shadow: 1px 1px #E49789;
+  text-shadow: 1px 1px var(--rose-shadow);
 }
 
 .krausyd {
