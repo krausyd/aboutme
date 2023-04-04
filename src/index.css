@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Share+Tech+Mono&family=Kaushan+Script&display=swap");
+
+:root {
+  --champagne-pink: #dacac4ff;
+  --melon: #f8afa6ff;
+  --honeydew: #dae7ddff;
+  --eerie-black: #212529ff;
+  --antiflash-white: #efefefff;
+  --antiflash-white2: #f0f2f3ff;
+  --misty-rose: #fadcd9ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: var(--antiflash-white);
+  color: var(--eerie-black);
+}
+
+.logo {
+  color: var(--melon);
+  text-shadow: 1px 1px #E49789;
+}
+
+.krausyd {
+  color: var(--melon); 
 }
