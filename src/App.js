@@ -27,7 +27,8 @@ function App() {
         {isAboveMediumScreens && (
           <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
         )}
-        <Intro setSelectedpage={setIsTopOfPage} />
+        <Intro />
+        <Wip />
       </div>
       {/* <Intro />
       <Wip />

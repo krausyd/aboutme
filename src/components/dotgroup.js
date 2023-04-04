@@ -12,22 +12,22 @@ export default function DotGroup({ selectedPage, setSelectedPage }) {
             />
             <AnchorLink
                 className={`${selectedPage === "skills" ? selectedStyles : "bg-honeydew"} w-3 h-3 rounded-full`}
-                href="#skills"
+                href="#wip"
                 onClick={() => setSelectedPage("skills")}
             />
             <AnchorLink
                 className={`${selectedPage === "projects" ? selectedStyles : "bg-honeydew"} w-3 h-3 rounded-full`}
-                href="#projects"
+                href="#wip"
                 onClick={() => setSelectedPage("projects")}
             />
             <AnchorLink
                 className={`${selectedPage === "resume" ? selectedStyles : "bg-honeydew"} w-3 h-3 rounded-full`}
-                href="#resume"
+                href="#wip"
                 onClick={() => setSelectedPage("resume")}
             />
             <AnchorLink
                 className={`${selectedPage === "contact" ? selectedStyles : "bg-honeydew"} w-3 h-3 rounded-full`}
-                href="#contact"
+                href="#wip"
                 onClick={() => setSelectedPage("contact")}
             />
         </div>

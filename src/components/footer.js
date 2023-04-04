@@ -60,7 +60,7 @@ const navigation = [
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center text-xs leading-5">
-              &copy; 2023 krausyd, Inc. All rights reserved.
+              &copy; 2023 krausyd. All rights reserved.
             </p>
           </div>
         </div>

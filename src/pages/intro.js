@@ -2,11 +2,10 @@ import React from 'react';
 import TypewriterComponent from 'typewriter-effect';
 import { motion } from 'framer-motion';
 import useMediaQuery from '../hooks/useMediaQuery';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import krausyd from '../assets/images/krausyd.jpg'
 import SocialMediaIcons from '../components/socialmedia';
 
-export default function Intro({ setSelectedpage }) {
+export default function Intro() {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
     return (
