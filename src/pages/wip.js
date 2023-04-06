@@ -5,7 +5,7 @@ export default function Wip() {
         <>
             <section
                 id="wip"
-                className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
+                className="md:flex md:justify-between md:items-center gap-16 md:h-5/6 py-10"
             >
                 <div className="overflow-hidden container mx-auto max-w-2xl py-16 sm:py-24 lg:py-36 text-center">
                     <p className="text-8xl font-bold mb-5 logo font-kaushan_script mb-32 sm:mb-40 lg:mb-44">
